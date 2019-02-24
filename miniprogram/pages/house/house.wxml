@@ -1,0 +1,15 @@
+<view class='wy_container'>
+<text class="title">短租房源推荐</text>
+<view class='input_city_date'>
+  <view class='city'>城市或目的地</view>
+  <view class='date'>入住离开日期</view>
+</view>
+<view wx:for='{{houses}}' wx:key='unique_{{index}}' class='house_row' bindtap='houseCellClick' data-item='{{item}}'>
+  <image class='image' src='{{item.image}}'></image>
+  <view class='name_price'>
+    <text>{{item.name}}</text>
+    <text>{{item.price}}</text>
+  </view>
+  <view class='collectBtn'>收藏</view>
+</view>
+</view>

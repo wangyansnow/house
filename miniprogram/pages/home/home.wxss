@@ -1,0 +1,100 @@
+.title {
+  display: flex;
+  margin-left: 12px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.inland {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-right: 0px;
+}
+
+.abroad {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.input_city_date {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.city {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.date {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  margin-left: 2px;
+}
+
+.weight {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e5e5e5;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 12px;
+}
+
+.weight_title {
+  margin-top: 12px;
+  margin-left: 6px;
+  font-size: 17px;
+}
+
+.weight_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weight_row_input {
+  width: 100px;
+  height: 20px;
+  border: 1px solid #e5e5e5;
+}
+
+.resetBtn {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  width: 60px;
+  font-size: 14px;
+  background: white;
+  height: 30px;
+  border-radius: 0;
+}
+
+button::after {
+  border-radius: 0;
+  border: 1px solid #e5e5e5;
+}
+
+.searchBtn {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-size: 14px;
+  background: white;
+  height: 30px;
+  border-radius: 0;
+}

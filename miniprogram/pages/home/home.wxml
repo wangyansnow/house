@@ -1,0 +1,36 @@
+<view class='wy_container'>
+<text class="title">短租房源推荐</text>
+<view class='country'>
+  <view class='inland'>国内</view>
+  <view class="abroad">海外</view>
+</view>
+<view class='input_city_date'>
+  <view class='city'>城市或目的地</view>
+  <view class='date'>入住离开日期</view>
+</view>
+<view class='weight'>
+  <text class='weight_title'>请输入您的权重</text>
+  <view class='weight_row'>
+    <text>房源配套设施</text>
+    <input class='weight_row_input'></input>
+  </view>
+  <view class='weight_row'>
+    <text>房源舒适度</text>
+    <input class='weight_row_input'></input>
+  </view>
+  <view class='weight_row'>
+    <text>房源交通</text>
+    <input class='weight_row_input'></input>
+  </view>
+  <view class='weight_row'>
+    <text>房源周边环境</text>
+    <input class='weight_row_input'></input>
+  </view>
+  <view class='weight_row'>
+    <text>房东服务</text>
+    <input class='weight_row_input'></input>
+  </view>
+  <button class='resetBtn'>重置</button>
+</view>
+<button class='searchBtn' bindtap='searchBtnClick'>搜索房源</button>
+</view>

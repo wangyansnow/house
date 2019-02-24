@@ -1,0 +1,62 @@
+.title {
+  display: flex;
+  margin-left: 12px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.inland {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-right: 0px;
+}
+
+.abroad {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.input_city_date {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.city {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.date {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  margin-left: 2px;
+}
+
+.image {
+  width: 150px;
+  height: 80px;
+}
+
+.house_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 12px;
+}
+
+.name_price {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 8px;
+  width: 80px;
+  justify-content: space-around;
+}
+
+.collectBtn {
+  margin-top: 12px;
+}
